@@ -1,28 +1,29 @@
-#include  <time.h>
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main -entry point for our execution,where the compilation and execution of  the code happens
+ * main -  Entry point of execution
  * Return: 0 for a succesful execution
  */
 int main(void)
 {
-	int n, n1;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	nl = n % 10;
-	if (nl > 5)
+	l = n % 10;
+	if (l > 5)
 	{
-		printf("Last digit of %d is %d \t This is greater than 5\n", n, nl);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
-	else if (nl == 0)
+	else if (l == 0)
 	{
-		printf("Last digit of %d is %d\t This is 0\n", n, n1);
+		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 \t It is  not 0\n", n, nl);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
+
