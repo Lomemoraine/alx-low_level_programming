@@ -1,5 +1,5 @@
-#include <stdlib.h>// standard c library for input and output functions
-#include <time.h>// time library to call srand() for randomizing   time
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
