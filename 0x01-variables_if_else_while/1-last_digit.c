@@ -1,3 +1,4 @@
+#include  <time.h>
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -8,7 +9,7 @@ int main(void)
 {
 	int n, n1;
 
-	
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	l = n % 10;
 	if (nl > 5)
