@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_alphabet - function that performs the task of printing out the alphabets
+ *print_alphabet - performs the task of printing the alphabet
  *
- *Return:void or empty since the function is declared to return nothing or void
+ *Return: void since the print alphabet function is of void type
  */
 
 void print_alphabet(void)
