@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Performs the task of printing the alphabet in the count specififed by the loop.
+ * print_alphabet_x10 - Perform the task of printing the alphabet.
  *
- * Return: void since the function is of void type
+ * Return: void or none
  */
 void print_alphabet_x10(void)
 
