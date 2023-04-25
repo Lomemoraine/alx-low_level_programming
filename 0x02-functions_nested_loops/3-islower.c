@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- *_islower - function to check a charcters casing if it is lower
+ *_islower - function to check if a character is in lower case
  *
- *Return: 1 if lowercase, else 0
+ *@c: The character in ASCII code
+ *
+ *Return: 1 if lowercase,else 0
  */
 int _islower(int c)
 {
