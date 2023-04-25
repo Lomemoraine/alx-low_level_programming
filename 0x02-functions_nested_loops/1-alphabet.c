@@ -3,7 +3,7 @@
 /**
  *print_alphabet - function that performs the task of printing out the alphabets
  *
- *Return: void or empty since the function is declared to return nothing or void
+ *Return:void or empty since the function is declared to return nothing or void
  */
 
 void print_alphabet(void)
