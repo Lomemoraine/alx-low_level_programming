@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *jack_bauer - function to print out the minute 
+ *jack_bauer - function that displays the minutes of a day
  *
- *Return: void or none
+ *Return: void
  */
 void jack_bauer(void)
 {
